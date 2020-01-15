@@ -1,0 +1,33 @@
+@media (max-width:768px)
+{
+    .products
+    {
+        display:block;
+        height: auto;
+        background-attachment: contain;
+        background-repeat: no-repeat;
+    }
+    .product {
+        margin-top:0;
+
+    }
+    .main_section
+    {
+        padding: 4%;
+    }
+    .container_other
+    {
+        flex-direction: column;
+    }
+    .content_others
+    {
+        margin-bottom: 20px;
+    }
+    .content_mentions
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
