@@ -1,0 +1,33 @@
+h1
+{
+    margin-left: 10px;
+}
+.row
+{
+    margin-bottom: 20px;
+}
+.row .detail-product p
+{
+    text-align: justify;
+    font-size:12px;
+}
+.row .detail-product h2 {
+    font-size: 17px;
+}
+.aparecer{
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-name: aparecer;
+    animation-name: aparecer;
+}
+@keyframes aparecer {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+
+}
