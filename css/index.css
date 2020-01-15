@@ -60,13 +60,12 @@ nav li a:hover
 .products 
 {
     background-image: url("../images/curve.png");
-    /* max-height: 50px; */
+    max-height: 50px;
     background-size:cover;
     background-position: center top;
     /* background-repeat: no-repeat; */
     padding:10%;
     display: flex;
-    height: auto;
 }
 .product
 {
