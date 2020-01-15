@@ -6,6 +6,9 @@ h1
 {
     margin-bottom: 20px;
 }
+.detail-product
+{
+}
 .row .detail-product p
 {
     text-align: justify;
@@ -30,4 +33,16 @@ h1
         opacity: 1;
     }
 
+}
+@media (max-width:768px)
+{
+    .container
+    {
+        text-align: center;
+    }
+    .detail-product
+    {
+        text-align: center;
+        margin: auto;
+    }
 }
