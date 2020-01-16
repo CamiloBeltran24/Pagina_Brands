@@ -173,11 +173,15 @@ footer
     align-items: center;
     padding: 10px;
     box-sizing: border-box;
+    margin-bottom: 0;
 }
 footer a
 {
     text-decoration: none;
     color: var(--white-color);
+}
+.contact {
+    color: var(--green-color);
 }
 
 
